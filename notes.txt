@@ -1,0 +1,50 @@
+11.02.2025
+Data structures are a specific way of organizing data in a specialized format on a computer so that the information can be organized, processed, stored, and retrieved quickly and effectively.
+data structures:linear, hash,graph...
+Serialization is the process of converting the state of an object into a form that can be persisted or transported.
+Deserialization is the reverse process of serialization. It involves taking a byte stream and converting it back into an object. 
+
+----------------
+
+http
+client - server
+Request -Response
+IP/ICP
+server also can be a client
+
+-------------------
+
+html http=Request line---
+                        -
+   request headers      -request
+                        -message
+                        -Header
+000000000000000000000000000000000= a blank line separates header and body
+bookid=dfasg2341234525     =HTTP client library-what methods does your library provides?
+                            server library
+
+------------------
+
+Methods:GET,POST, PUT, DELETE, OPTIONS,...
+Status Codes: 2xx-success; 3xx-redirect;4xx-client errors; 5xx-server errors(can be some error from client side, like wrong input or format)
+Status code is when you receiving data; status code is coming from the server.
+
+--------------------------------
+
+HTTP/1.1.200 -------------->status line
+"different data"----------->Headers
+<html>-\
+<body>---------------->body
+.....-/
+
+----------------------------------
+
+We dont use port numbers in IPV6
+Accept- is command that shows what format it accepts, but servers dont need it.
+----------------------------------
+Methods Used in the Server and Client:
+GET → Retrieve data from the server
+POST → Send new data to the server
+PUT → Update existing data on the server
+DELETE → Remove data from the server
+OPTIONS → Check which HTTP methods are allowed
