@@ -211,8 +211,31 @@ if __name__ == "__main__":
 
 ------------------------------------------------------------------------------------
 
+29.04
 
 
+XSS Cross site scripting
+    Unsecured inputs in forms. public forms
+    reviews, comments, BIO ,username <script> clean html in asp.net
+
+SQL Injection
+'Select * FROM products WHERE name == '%${req.query.search}%'"
+
+
+db.execute(
+  'Select * FROM products WHERE name = '%?%',
+  [req/query/search]
+)
+
+
+
+
+ 
+Brute force, Both passwords and directory traversing
+Rate limiting plugin/middleware
+IP based rate limiting, 10000 login requests per 1 minutes
+Misconfigurations
+CORS
 
 
 
