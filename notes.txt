@@ -239,5 +239,43 @@ CORS
 
 
 
+------------------------------------------------------------------------------------
+
+02.09
+
+
+Define the project requirements and main features
+
+Design the user interface and user experience
+
+Choose the technology stack (frontend, backend, database)
+
+Set up the project structure and development environment
+
+Create the database schema (movies, rooms, schedules, bookings)
+
+Develop the backend API for data and booking logic
+
+Build the frontend pages and user interactions
+
+Integrate seat selection and payment processing
+
+Test the full booking flow and fix bugs
+
+Deploy the website and monitor after launch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
